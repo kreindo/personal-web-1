@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <Maintenance />
-      {/* <SimplePortfolio /> */}
+      <SimplePortfolio />
     </Layout>
   );
 };
@@ -57,7 +57,7 @@ const Card = () => {
 
 const Maintenance = () => {
   return (
-    <div className="h-screen bg-slate-800 text-white">
+    <div className="h-screen bg-slate-900 text-white">
       <div className="flex h-full items-center justify-center">
         <div className="flex h-24 w-56 items-center justify-center rounded-md border border-yellow-500 bg-slate-900 shadow-md">
           <h2 className="font-semibold text-yellow-500">
