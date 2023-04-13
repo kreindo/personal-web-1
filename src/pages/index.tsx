@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <Maintenance />
-      <SimplePortfolio />
+      {/* <SimplePortfolio /> */}
     </Layout>
   );
 };
